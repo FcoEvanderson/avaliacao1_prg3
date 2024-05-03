@@ -5,16 +5,6 @@ body{
     padding: 6em 0 0 0;
 }
 
-#header{
-    display: flex;
-    flex-grow: 1;
-    position: fixed;
-    background-color: #481E14;
-    color: #F2613F;
-    width: 100%;
-    top: 0;
-}
-
 header #logo{
     flex: 0 1 50px;
     flex-grow: 1;
@@ -27,18 +17,11 @@ header h1{
     margin: 0;
 }
 
-#menu{
-    flex: 1 1 100vw;
-    align-items: center;
-    justify-content: end;
-    margin: 15px;
-}
-
 nav ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    justify-content: center;
+    justify-content: baseline;
     margin: 0;
 }
 
@@ -49,7 +32,7 @@ nav li{
 nav li a{
     color: #F2613F;
     text-decoration: none;
-    margin: 1em 1em;
+    margin: 5px 5px;
 }
 
 nav a:hover{
@@ -77,18 +60,7 @@ footer{
 footer address{
     text-align: center;
     color: white;
-}
-
-.footer-a2{
-    text-align: center;
-    margin: 5px;
-}
-
-.form-container{
-    background-color: #f8795c;
-    width: 100%;
     padding: 10px;
-    border-radius: 15px;
 }
 
 table{
@@ -132,4 +104,39 @@ button{
     border-radius: 10px;
     display: inline-block;
     border: 1px solid #FFF;
+}
+
+#header{
+    display: flex;
+    flex-grow: 1;
+    position: fixed;
+    background-color: #481E14;
+    color: #F2613F;
+    width: 100%;
+    top: 0;
+}
+
+#menu{
+    flex: 1 1 100vw;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.footer-a1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+
+.footer-a2 address{
+    padding: 2px;
+}
+
+.form-container{
+    background-color: #f8795c;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
 }

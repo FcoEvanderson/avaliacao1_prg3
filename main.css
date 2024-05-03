@@ -5,16 +5,6 @@ body{
     padding: 5.5em 0 0 0;
 }
 
-#header{
-    display: flex;
-    flex-grow: 1;
-    position: fixed;
-    background-color: #481E14;
-    color: #F2613F;
-    width: 100%;
-    top: 0;
-}
-
 header #logo{
     flex: 0 1 50px;
     flex-grow: 1;
@@ -25,13 +15,6 @@ header h1{
     text-align: center;
     padding: 0.2em 0;
     margin: 0;
-}
-
-#menu{
-    flex: 1 1 100vw;
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
 }
 
 nav ul{
@@ -68,29 +51,35 @@ main{
 
 footer{
     margin: 1em 0 2em 0;
-
 }
 
 footer address{
     text-align: center;
     color: white;
+    padding: 10px;
+}
+
+#header{
+    display: flex;
+    flex-grow: 1;
+    position: fixed;
+    background-color: #481E14;
+    color: #F2613F;
+    width: 100%;
+    top: 0;
+}
+
+#menu{
+    flex: 1 1 100vw;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
 }
 
 #main-content{
     max-width: 90%;
     text-align: justify;
     margin: 0 auto;
-}
-
-.footer-a1{
-    text-align: center;
-    margin: 5px;
-}
-
-.banner-principal{
-    text-align: center;
-    max-width: 75em;
-    margin-bottom: 4em;
 }
 
 #banner1{
@@ -106,4 +95,21 @@ footer address{
 .images-main img{
     max-width: 90%;
     box-shadow: 5px 5px #0005;
+}
+
+.footer-a1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+
+.footer-a2 address{
+    padding: 2px;
+}
+
+.banner-principal{
+    text-align: center;
+    max-width: 75em;
+    margin-bottom: 4em;
 }
